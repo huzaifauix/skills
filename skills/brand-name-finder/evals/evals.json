@@ -1,0 +1,51 @@
+{
+  "skill_name": "brand-name-finder",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "starting a youtube channel reviewing cheap gadgets under $50, honest no-sponsor vibe, a bit funny. need a name where the .com AND the youtube handle are free. keep it short pls",
+      "expected_output": "Ranked shortlist of short, varied names with .com and YouTube handle verified free, conflicts flagged, top pick.",
+      "files": [],
+      "assertions": [
+        "Report lists at least 10 shortlisted names",
+        "Every shortlisted .com is unregistered when re-checked against the registry",
+        "Shortlisted names are short (most at or under 10 letters before .com)",
+        "Report includes a conflict check (existing brands/channels) for finalists",
+        "Report names a single top pick",
+        "Shortlist spans at least 3 naming styles (not just adjective+noun pairs)",
+        "YouTube handle availability was actually checked and reported for shortlisted names"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "We're building B2B scheduling software for dental clinics (online booking, reminders, no-show reduction). Premium but friendly, should not sound like a generic 'dental' brand so we can expand to other clinics later. Need a name with an available .com, and tell me if .io or .ai are free too.",
+      "expected_output": "Shortlist of names not locked to 'dental', .com verified free plus .io/.ai status, conflict check, top pick.",
+      "files": [],
+      "assertions": [
+        "Report lists at least 10 shortlisted names",
+        "Every shortlisted .com is unregistered when re-checked against the registry",
+        "Shortlisted names are short (most at or under 10 letters before .com)",
+        "Report includes a conflict check (existing brands/channels) for finalists",
+        "Report names a single top pick",
+        "Shortlist spans at least 3 naming styles (not just adjective+noun pairs)",
+        ".io and .ai availability reported for shortlisted names",
+        "No shortlisted name contains 'dent' or 'dental' (brief wants room to expand)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "I really wanted northstarhost.com for my managed WordPress hosting company but it's taken. Can you find me something with the same feel (guiding, reliable, a bit premium) that's actually available as a .com?",
+      "expected_output": "Close variants of Northstar plus new names with the same feel, .com verified free, taken favourite acknowledged, conflict check.",
+      "files": [],
+      "assertions": [
+        "Report lists at least 10 shortlisted names",
+        "Every shortlisted .com is unregistered when re-checked against the registry",
+        "Shortlisted names are short (most at or under 10 letters before .com)",
+        "Report includes a conflict check (existing brands/channels) for finalists",
+        "Report names a single top pick",
+        "Shortlist spans at least 3 naming styles (not just adjective+noun pairs)",
+        "Report acknowledges northstarhost.com is taken and offers close variants or same-feel alternatives"
+      ]
+    }
+  ]
+}
