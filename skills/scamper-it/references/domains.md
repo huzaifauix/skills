@@ -158,4 +158,14 @@ When the source doesn't fix a limit, use these. They are common conventions and 
 | Meta description | ~150–160 characters |
 | Back-cover blurb | ~100–200 words |
 
+**Reformat targets (rules of thumb)**
+| Format | Shape |
+|---|---|
+| Carousel (LinkedIn / Instagram) | 6–10 slides: hook slide, one idea per slide, ≤25 words per slide, save-worthy last slide with CTA |
+| Thread (X / LinkedIn) | 5–8 posts; the first must stand alone; one idea per post; CTA last; X posts ≤280 characters |
+| Short video script (Reels / Shorts / TikTok) | 30–60 s; hook in the first 2 s; ~2.5 spoken words per second; on-screen text ≤7 words per beat |
+| Newsletter section | 150–300 words, one idea, one link |
+| Quote cards | 1 line each, ≤20 words, attributed |
+| Podcast talking points | 3–5 points, each with one story or example |
+
 **Infographic density:** one idea per panel, about 40 words per panel at most, at least 4.5:1 text contrast, and nothing under 12 px at the published size. Count slots on the source before writing copy, because copy that overflows only shows once it's rendered.

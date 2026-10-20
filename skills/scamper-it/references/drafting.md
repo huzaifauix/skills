@@ -9,8 +9,24 @@ The variations have to be *seen*, not described. A reader judges a headline by r
 - Concept cards (campaigns, ideas, products)
 - Before → after (processes)
 - Fidelity levels
+- The final check
 
 ---
+
+## Format drafts (reformat preset)
+
+When the three drafts are three formats of the same message, draft each one in its own structure, as finished copy:
+
+```markdown
+**A · LinkedIn carousel (8 slides)**
+1. Hook: …  2. … 8. Save-worthy summary + CTA
+**B · X thread (6 posts)**
+1/ … (must stand alone) … 6/ CTA
+**C · 45-second video script**
+0–2s hook (on-screen: …) · 2–15s … · close + CTA
+```
+
+For visual formats on a canvas, render the cover and two key slides, not every slide.
 
 ## Copy and writing
 
@@ -80,6 +96,14 @@ Use this when there is no canvas tool (Cursor, Codex, plain CLI agents).
 
 Keep it to four lines per card. If a card needs more, the idea isn't concrete enough yet.
 
+## Screens and flows (UI)
+
+When the subject is a screen or a user flow (a checkout, onboarding, sign-up, app screen), show the before → after flow **and** render the key screen of each draft as a phone-sized mockup (390 wide), on the canvas or in the HTML file. Mark removed elements and moved steps visibly. A flow described only in text can't be judged by eye.
+
+## Video, Reel and Story frames
+
+Every rendered frame carries its real on-screen text and layout: the hook line, captions, stickers and the CTA. Don't leave large empty boxes or grey "footage" placeholders. If footage is unknown, show a simple described shot ("[close-up: hands closing a book]") inside a small labelled area, and give the frame's text the space.
+
 ## Before → after (processes)
 
 ```markdown
@@ -98,3 +122,16 @@ Removed: IT ticket · Moved: first project → day 1, orientation → async · A
 | **Final** (after the pick) | The deliverable | Everything polished: spacing, contrast checks, exact sizes, export-ready |
 
 Three medium drafts beat one final draft plus two descriptions. At this stage the user is choosing a direction, not proofreading.
+
+## The final check
+
+Run this after the user picks, before you call the piece final:
+
+- [ ] **Fit:** every text inside its slot or limit; nothing clipped.
+- [ ] **Overlaps:** no badge, label or arrow over text. Render it to check if you can (a headless browser, or a canvas screenshot when the tool allows verifying).
+- [ ] **Contrast and size:** text at least 4.5:1, nothing under 12 px at the published size.
+- [ ] **Placeholders:** all invented facts bracketed; dates consistent with the user's timeline.
+- [ ] **Source traces:** no creator name, handle, logo or watermark from any reference.
+- [ ] **Originality:** mixes 2+ sources; not too close to any single reference.
+
+Then say which of these you actually verified. If the environment told you not to verify (some design canvases do), write "Not visually checked; ask me to render and fix" instead of claiming it is clean.

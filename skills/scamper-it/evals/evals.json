@@ -7,27 +7,27 @@
       "expected_output": "Full SCAMPER session: framed goal, attributes, ideas under all 7 letters with bold ideas, scored shortlist, prioritized next steps with tests.",
       "files": [],
       "expectations": [
-        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
-        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Presents 3 named variations (A/B/C) as drafted concepts (concept cards or draft copy), not only idea lists",
         "M ideas include at least one Magnify and one Minify",
         "Each recommendation has a riskiest assumption and a cheapest test",
         "Addresses the open-rate problem specifically (subject line / sender / preview / timing)",
-        "Backlog of undrafted ideas is 8 items or fewer"
+        "Backlog of undrafted ideas is 8 items or fewer",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
       ]
     },
     {
       "id": 2,
-      "prompt": "here's the back-cover blurb for a debut psychological thriller ... give me 3 rewritten options.",
+      "prompt": "here's the back-cover blurb for a debut psychological thriller we're publishing in spring. it feels super generic. can you rework it? give me 3 rewritten options.\n\n'Some secrets are better left buried. When Clara Hayes returns to her childhood home in the small coastal town of Wrenmouth after her mother's sudden death, she discovers a box of letters that will change everything she thought she knew about her family. As dark truths begin to surface, Clara must race against time to uncover the past before it destroys her future. A gripping, twisty page-turner you won't be able to put down.'",
       "expected_output": "Three finished rewritten blurbs, each labelled with the SCAMPER operator(s) behind it, cliches removed, a recommendation.",
       "files": [],
       "expectations": [
-        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
-        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Shows the original blurb, then three complete rewritten blurbs ready to use",
         "Each rewrite is labelled with a name and the SCAMPER letters behind it",
         "None of the rewrites use 'better left buried', 'race against time', or 'put it down'",
-        "Invented plot specifics are flagged as placeholders"
+        "Invented plot specifics are flagged as placeholders",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
       ]
     },
     {
@@ -36,12 +36,12 @@
       "expected_output": "Deep Eliminate and Reverse/Rearrange pass on checkout steps, concrete changes, prioritized, with tests and UX caveats.",
       "files": [],
       "expectations": [
-        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
-        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Focuses on Eliminate and Reverse/Rearrange rather than a full 7-letter session",
         "Proposes guest checkout / account after purchase",
         "Shows at least one variation as a before -> after flow of checkout steps",
-        "Recommends testing/measuring the changes"
+        "Recommends testing/measuring the changes",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
       ]
     },
     {
@@ -52,14 +52,14 @@
         "evals/files/tech-career-ladder.webp (local only: third-party image, not committed)"
       ],
       "expectations": [
-        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
-        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Map separates a layout area and a content area",
         "Produces visual drafts: design artboards or a single HTML file showing 3 variations side by side",
         "Variations differ in how they treat the layout metaphors (at least one keeps the layout exactly, one changes a layout element)",
         "Copy fits the slot structure of the source (4 levels, short stage labels, short bullets)",
         "No trace of the source creator's name or handle remains; footer uses a placeholder",
-        "No invented statistics"
+        "No invented statistics",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
       ]
     },
     {
@@ -68,12 +68,81 @@
       "expected_output": "Map (layout + copy + CTA areas), three hero variations rendered visually (artboards or HTML side by side) with real copy, What changed table, recommendation.",
       "files": [],
       "expectations": [
-        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
-        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Produces visual drafts of 3 hero sections (artboards or one HTML file), not only text",
         "Each variation has real headline, subhead and CTA copy within typical limits (headline <= 10 words, CTA 2-4 words)",
         "At least one variation changes the CTA beyond 'Buy Now' (e.g. preview, first chapter, preorder bonus)",
-        "Unknown facts (quotes, awards, dates) are placeholders, not invented"
+        "Unknown facts (quotes, awards, dates) are placeholders, not invented",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
+      ]
+    },
+    {
+      "id": 6,
+      "prompt": "design an infographic on this topic \"How to build website that converts\". See attached reference to repurpose",
+      "files": [
+        "evals/files/expert-business-reference.gif (local only: third-party GIF, not committed)"
+      ],
+      "expected_output": "Read as 'from a reference' (layout free), references at 3 distances, an angle, 3 drafts where at least 2 change the structure, close with checked status.",
+      "expectations": [
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
+        "Reads the request as design-from-reference: layout is listed under Change (not Keep)",
+        "Lists at least 3 references at different distances (close / adjacent / distant), each with a one-line mechanism",
+        "States a one-sentence angle before the drafts",
+        "At least 2 of the 3 drafts use a structure clearly different from the reference's three-circles-feeding-a-centre layout",
+        "Produces visual drafts (artboards or HTML)",
+        "No trace of the reference creator's name or handle",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
+      ]
+    },
+    {
+      "id": 7,
+      "prompt": "Here's our latest blog post. Can you repurpose it for social?\n\nWhy Your Book Club Keeps Falling Apart. Most book clubs don't end with a fight. They fade. Someone skips a month, then two, and the group chat goes quiet. In our survey of readers at our spring events, the most common reason people gave for quitting was not time, it was books they didn't enjoy. Three fixes help: let members take turns choosing, but cap picks at 350 pages; meet even when half the group hasn't finished, because the conversation is the point, not the homework; and end every meeting by agreeing the next date before anyone leaves. Clubs that set the next date in the room are far more likely to still be meeting a year later. Your book club isn't failing because people stopped loving books. It's failing because nobody owns the next step.",
+      "files": [],
+      "expected_output": "Reformat preset: keep message, change format; three drafts are three different formats in their native structure; no new claims.",
+      "expectations": [
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
+        "Reads it as reformat: message under Keep, format/channel under Change",
+        "The three drafts are three different social formats (e.g. carousel, thread, short video script), each written in its native structure (slides / posts / timed beats)",
+        "Thread draft (if any) has a first post that stands alone and posts within 280 characters if for X",
+        "Adds no factual claims or statistics that are not in the source post (e.g. does not invent a percentage for 'far more likely')",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
+      ]
+    },
+    {
+      "id": 8,
+      "prompt": "We have an infographic idea '7 steps to plan a book launch' that we made for publishers. Make it work for first-time self-published authors, in our brand style: navy #1B2A4A, coral #FF6F59, font Poppins. Keep the 7-step checklist structure.",
+      "files": [],
+      "expected_output": "Keep: 7-step structure. Change: audience, style. Drafts use brand colours/font and address self-published authors.",
+      "expectations": [
+        "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
+        "Keep includes the 7-step checklist structure; Change includes audience and style",
+        "Every draft keeps exactly 7 steps",
+        "Visual drafts use #1B2A4A and #FF6F59 and the Poppins font",
+        "Copy addresses first-time self-published authors (e.g. no publicist/sales-team assumptions; mentions things like ISBN, retailers, ARC readers, budget)",
+        "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
+      ]
+    },
+    {
+      "id": 9,
+      "prompt": "make our marketing better",
+      "files": [],
+      "expected_output": "Blocked: asks 1-3 multiple-choice questions with recommended defaults and stops, no drafts.",
+      "expectations": [
+        "Asks between 1 and 3 clarifying questions instead of producing drafts",
+        "Questions offer choices (multiple choice or examples) and a recommended default",
+        "Does not produce drafts, references or a SCAMPER run before the questions are answered"
+      ]
+    },
+    {
+      "id": 10,
+      "prompt": "give me a few fresh angles for this tweet: 'New book out Tuesday! Get your copy now.'",
+      "files": [],
+      "expected_output": "Light effort: quick pass with a handful of concrete tweet alternatives and a top pick; no references, no HTML, short.",
+      "expectations": [
+        "Treats it as light effort / quick pass: no references list, no angle step, no HTML or design files",
+        "Gives concrete rewritten tweet options (not just advice), each within 280 characters",
+        "Names a top pick with a one-line reason",
+        "Response is under 400 words"
       ]
     }
   ]
