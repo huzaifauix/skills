@@ -27,6 +27,11 @@ Find available brand names with registered .com domains. Generates creative name
 
 **Use when:** Naming a brand, product, or service and the .com domain must be available.
 
+### `scamper-it`
+Run the SCAMPER creative-thinking method (Substitute, Combine, Adapt, Modify/Magnify/Minify, Put to other uses, Eliminate, Reverse/Rearrange) on content, writing, design, products, and processes. Breaks the subject into attributes, generates labelled ideas per letter (including bold ones), scores a shortlist on New/Useful/Feasible, and turns the picks into cheap tests. Supports full sessions, single-letter deep dives, quick passes, producing finished variants (e.g. rewritten copy), and planning team workshops. Per-letter reference files hold trigger questions, domain prompts, pitfalls, and fact-checked examples.
+
+**Use when:** Brainstorming fresh angles, remixing or repurposing something that already exists, or asking "what could we eliminate / reverse here?"
+
 ## Manual Installation
 
 You can also manually copy any `SKILL.md` file from the `skills/` directory into your Cursor skills folder:

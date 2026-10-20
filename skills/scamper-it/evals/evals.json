@@ -1,0 +1,48 @@
+{
+  "skill_name": "scamper-it",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I run marketing at a small literary publisher. Our monthly email newsletter 'The Shelf' \u2014 a staff book pick, a list of new releases, and a short author interview \u2014 has slipped from 31% to 22% open rate over the past year and clicks are flat. Use SCAMPER to come up with ideas to make it fresh again, and tell me which ones to try first.",
+      "expected_output": "Full SCAMPER session: framed goal, attributes, ideas under all 7 letters with bold ideas, scored shortlist, prioritized next steps with tests.",
+      "files": [],
+      "expectations": [
+        "Output covers all seven SCAMPER letters (S, C, A, M, P, E, R) as distinct sections",
+        "Output explicitly lists the attributes/components of the newsletter that were examined (e.g. subject line, format, cadence, sections)",
+        "M section includes at least one Magnify AND at least one Minify idea",
+        "At least one idea per letter on average is labelled as bold/far-out",
+        "Includes a shortlist with explicit scoring or prioritization criteria (e.g. New/Useful/Feasible or impact/effort)",
+        "Each recommended idea has a concrete cheapest test (e.g. A/B subject line test) and a riskiest assumption or success signal",
+        "Recommendations address the open-rate problem specifically (subject line / sender / preview / timing), not only content inside the email"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "here's the back-cover blurb for a debut psychological thriller ... give me 3 rewritten options.",
+      "expected_output": "Three finished rewritten blurbs, each labelled with the SCAMPER operator(s) behind it, cliches removed, a recommendation.",
+      "files": [],
+      "expectations": [
+        "Provides exactly three (or at least three) complete rewritten blurbs ready to use",
+        "Each rewritten blurb is labelled with the SCAMPER operator(s) or strategy behind it",
+        "None of the rewrites use the original clich\u00e9s 'Some secrets are better left buried', 'race against time', or 'won't be able to put down'",
+        "Recommends one option with a reason",
+        "Any invented plot specifics are flagged as placeholders for the editor to confirm",
+        "The three options are structurally different from each other (not just reworded versions of the same structure)"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Our online bookstore checkout is 5 steps: cart \u2192 create account \u2192 shipping address \u2192 payment \u2192 review & confirm. Mobile abandonment is around 70%. What could we eliminate, and what could we reverse or rearrange? Give me concrete changes.",
+      "expected_output": "Deep Eliminate and Reverse/Rearrange pass on checkout steps, concrete changes, prioritized, with tests and UX caveats.",
+      "files": [],
+      "expectations": [
+        "Focuses on Eliminate and Reverse/Rearrange rather than running a full 7-letter session",
+        "Proposes eliminating forced account creation (guest checkout or post-purchase account)",
+        "Proposes at least one Rearrange idea that changes step order (e.g. account creation after payment, or shipping estimate in cart)",
+        "Includes at least one Reverse idea that inverts a role or assumption, not just reordering",
+        "Changes are prioritized (e.g. quick wins vs bigger bets)",
+        "Recommends testing/measuring the changes (A/B test, funnel metrics, usability test)"
+      ]
+    }
+  ]
+}
