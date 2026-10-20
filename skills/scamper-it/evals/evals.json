@@ -82,12 +82,10 @@
       "files": [
         "evals/files/expert-business-reference.gif (local only: third-party GIF, not committed)"
       ],
-      "expected_output": "Read as 'from a reference' (layout free), references at 3 distances, an angle, 3 drafts where at least 2 change the structure, close with checked status.",
+      "expected_output": "Read as 'from a reference' (layout under Change), 3 drafts where at least 2 change the structure, close with checked status.",
       "expectations": [
         "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Reads the request as design-from-reference: layout is listed under Change (not Keep)",
-        "Lists at least 3 references at different distances (close / adjacent / distant), each with a one-line mechanism",
-        "States a one-sentence angle before the drafts",
         "At least 2 of the 3 drafts use a structure clearly different from the reference's three-circles-feeding-a-centre layout",
         "Produces visual drafts (artboards or HTML)",
         "No trace of the reference creator's name or handle",
@@ -98,12 +96,12 @@
       "id": 7,
       "prompt": "Here's our latest blog post. Can you repurpose it for social?\n\nWhy Your Book Club Keeps Falling Apart. Most book clubs don't end with a fight. They fade. Someone skips a month, then two, and the group chat goes quiet. In our survey of readers at our spring events, the most common reason people gave for quitting was not time, it was books they didn't enjoy. Three fixes help: let members take turns choosing, but cap picks at 350 pages; meet even when half the group hasn't finished, because the conversation is the point, not the homework; and end every meeting by agreeing the next date before anyone leaves. Clubs that set the next date in the room are far more likely to still be meeting a year later. Your book club isn't failing because people stopped loving books. It's failing because nobody owns the next step.",
       "files": [],
-      "expected_output": "Reformat preset: keep message, change format; three drafts are three different formats in their native structure; no new claims.",
+      "expected_output": "Reformat: keep message, change format; ONE chosen format named in the Assess line, three takes in that format; no other formats offered or produced yet; no new claims.",
       "expectations": [
         "Opens with an Assess line stating the goal, what to Keep vs Change, and an effort level",
         "Reads it as reformat: message under Keep, format/channel under Change",
-        "The three drafts are three different social formats (e.g. carousel, thread, short video script), each written in its native structure (slides / posts / timed beats)",
-        "Thread draft (if any) has a first post that stands alone and posts within 280 characters if for X",
+        "Delivers ONE target format (named in the Assess line, with a way to switch), with three drafts as three takes in that format, each in its native structure",
+        "Does not produce or offer other formats in this first response",
         "Adds no factual claims or statistics that are not in the source post (e.g. does not invent a percentage for 'far more likely')",
         "Ends with a close: What changed table, recommendation, and a line saying whether drafts were visually checked"
       ]

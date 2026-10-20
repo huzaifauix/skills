@@ -28,17 +28,13 @@ Find available brand names with registered .com domains. Generates creative name
 **Use when:** Naming a brand, product, or service and the .com domain must be available.
 
 ### `scamper-it`
-A creative partner built on the SCAMPER method (Substitute, Combine, Adapt, Modify/Magnify/Minify, Put to other uses, Eliminate, Reverse/Rearrange) that works the way a designer or writer would:
+Run the SCAMPER creative-thinking method (Substitute, Combine, Adapt, Modify/Magnify/Minify, Put to other uses, Eliminate, Reverse/Rearrange) and **see the results as drafts**, not just idea lists. Every run works in three stages:
 
-1. **Assess:** the real goal, what to **Keep vs Change**, and how much effort the job deserves (light / standard / deep). Shown in one line you can correct with a word.
-2. **Ask only if blocked:** 1–3 multiple-choice questions when something critical is missing.
-3. **Gather:** references at three distances (close, adjacent, distant), noting why each works.
-4. **Angle:** one sentence of point of view that makes the piece original.
-5. **SCAMPER:** only the letters that fit what's changing.
-6. **Three drafts** (Close / Balanced / Bold) in the real medium: rewritten copy, design artboards (or one side-by-side HTML file), concept cards, or before → after flows. Then you pick, combine or redirect.
-7. **Final + check:** fit, overlaps, contrast, placeholders, originality.
+1. **Assess and map:** reads the intent first (the real goal, what to **keep vs change**, light or standard effort), asks only if something critical is missing, then maps the parts SCAMPER may touch, with their limits.
+2. **Drafts:** three variations (Close / Balanced / Bold) in the subject's own medium: rewritten copy, design artboards (or one side-by-side HTML file), screen mockups, concept cards, or before → after flows.
+3. **Close:** a "What changed" table, a recommendation, the riskiest assumption, the cheapest test, and what was actually checked.
 
-Presets: **template reuse** (keep the layout, new topic), **reformat** (keep the message, new formats such as carousel / thread / video script), and **from a reference** (keep the idea, new layouts). Quick asks get a short text pass.
+Repurpose requests are read from the wording: **template reuse** (keep the layout, new topic), **reformat** (keep the message, one new format, with other formats offered only after you've settled), or **from a reference** (keep the idea, new layouts). Quick asks get a short text pass.
 
 **Use when:** Brainstorming fresh angles, repurposing or reformatting content, designing something "like this reference", or asking "what could we eliminate / reverse here?"
 

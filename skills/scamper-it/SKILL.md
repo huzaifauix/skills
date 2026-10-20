@@ -1,203 +1,202 @@
 ---
 name: scamper-it
-description: A creative partner that works like a designer or writer. It assesses the request (goal, what to keep vs change, effort), asks only if blocked, gathers references, finds an angle, runs SCAMPER, and SHOWS three drafts to pick from before finishing. Use it for marketing and content, writing (copy, headlines, blurbs, articles), visual design (infographics, social posts, carousels, landing pages, covers), products and processes. Use it whenever the user mentions SCAMPER (or "SCRAMPER"), wants variations or fresh angles, wants to "remix", "repurpose" or "reformat" something (a template, infographic, post, blog, webinar) for a new topic, format or audience, designs something "like this reference", wants to make something less generic, reworks an existing draft, design, campaign or process, or asks "what could we eliminate / reverse here", even if they never name the method. Also for planning a SCAMPER workshop.
+description: Run SCAMPER (Substitute, Combine, Adapt, Modify/Magnify/Minify, Put to other uses, Eliminate, Reverse/Rearrange) to generate and SHOW draft variations of content and marketing, writing (copy, headlines, blurbs, articles, fiction), visual design (infographics, social posts, carousels, landing pages, covers), products and processes. It first reads the intent of the request (goal, what to keep vs change, how much effort), asks only if blocked, then delivers three real drafts (copy, artboards, concept cards), not just idea lists. Use this whenever the user mentions SCAMPER (or "SCRAMPER"), wants variations or fresh angles, wants to "remix", "repurpose" or "reformat" something (a template, infographic, post, blog) for a new topic, format or audience, designs something "like this reference", wants to make something less generic, reworks an existing draft, design, campaign or process, or asks "what could we eliminate / reverse here", even if they never name the method. Also for planning a SCAMPER workshop.
 ---
 
-# SCAMPER-it
+# SCAMPER
 
-Work the way a good creative person does. They don't start generating right away:
-1. They **understand** the request.
-2. They **gather** references.
-3. They form an **angle**.
-4. Then they **make** variations.
-5. They **show** them to the client.
-6. They **finish** the chosen one properly.
+SCAMPER is a checklist of seven operators applied to something that **already exists** (a draft, design, template, campaign, product or process) to provoke new versions of it. It comes from Alex Osborn's checklist of about 70 idea-spurring questions (*Applied Imagination*, 1953). Bob Eberle turned it into an acronym in 1971, and Michael Michalko's *Thinkertoys* (1991) popularized it. ("SCRAMPER" is a misspelling.)
 
-SCAMPER is the engine for step 4. It comes from Osborn's checklist of about 70 questions (1953), which Eberle turned into an acronym (1971) and Michalko popularized (1991). It reliably produces **more and wider** ideas. But it anchors on its starting point, so on its own it rarely produces *original* ones. Steps 1–3 exist to fix that: understanding finds the real goal, and references plus an angle pull the work away from a copy of the source.
+SCAMPER reliably produces **more and wider** ideas, but not reliably more *original* ones, because it anchors on the starting thing. So in this skill, quality comes from five habits:
+
+1. Read what the user actually wants changed, and what must stay.
+2. Map the subject into areas and parts.
+3. Push past the first obvious answer.
+4. Show ideas as **drafts** people can judge with their eyes.
+5. Select deliberately at the end.
 
 ## The operators (cheat sheet)
 
 | Letter | Operator | Core questions | The mental move |
 |---|---|---|---|
-| **S** | Substitute | What could replace this part, material, person, channel, rule, time, tone? | Separate the *function* from the thing doing it |
-| **C** | Combine | What could merge: features, purposes, audiences, formats, partners, references? | Blend two normally separate frames |
-| **A** | Adapt | Who solved this elsewhere: another industry, nature, history, games? | Borrow the *mechanism*, not the look |
-| **M** | Modify / Magnify / Minify | Change an attribute. 10× bigger, more, exaggerated? 1/10, condensed, split? | Push attributes to extremes |
-| **P** | Put to other uses | Who else could use it, where, for what? What could leftovers become? | "What else is this good for?" |
-| **E** | Eliminate | What could go and it still works? What is the one thing it must do? | Subtraction, which people neglect |
-| **R** | Reverse / Rearrange | What's the opposite? Flip the order, roles, cause and effect. | Invert hidden defaults |
+| **S** | Substitute | What could replace this part, material, person, channel, rule, time, tone? | Separate the *function* from the thing currently doing it |
+| **C** | Combine | What could merge: features, purposes, audiences, formats, partners, steps? | Blend two normally separate frames |
+| **A** | Adapt | What else is like this? Who solved it elsewhere: another industry, nature, history, games? | Analogy: borrow the *mechanism*, not the look |
+| **M** | Modify / Magnify / Minify | Change an attribute (meaning, colour, shape, tone). 10× bigger, more frequent, exaggerated? 1/10, condensed, split, understated? | Push attributes to extremes to see which matter |
+| **P** | Put to other uses | Who else could use it, where, for what? What could leftovers, data or by-products become? | Ask "what else is this good for?" |
+| **E** | Eliminate | What could be removed, simplified or skipped and still work? What is the one thing it must do? | Subtraction. People neglect it and default to adding |
+| **R** | Reverse / Rearrange | What's the opposite? Flip the order, roles, cause and effect. What if the last step came first? | Invert hidden assumptions and defaults |
 
-The letters overlap. That's fine: they are prompts, not categories.
+The letters overlap (Eliminate vs Minify, Substitute vs Adapt, Reverse vs Rearrange). That's fine. They are prompts, not categories, so never spend effort deciding which letter an idea belongs to.
 
-## The flow
+## How every run works
 
-**Request → 1 Assess → 2 Ask (only if blocked) → 3 Gather → 4 Angle → 5 SCAMPER → 6 Drafts ⏸ pick → 7 Final + check**
+Every run except a quick pass follows six steps. Steps 1, 4 and 5 are visible to the user. Steps 2 and 3 are mostly your own thinking.
 
-Two exceptions:
-- **Quick asks** ("a few angles on this headline") get a quick pass: 5–6 concrete options from the letters that bite best (not all seven), one top pick with a one-line reason, and nothing else. No Assess line beyond a few words, no references, no risk or test section, no drafts. Under 300 words.
-- **"Just do it" asks** ("make it better, I trust you") run steps 1–6, then go straight to 7 on the recommended draft. The other two drafts are still shown in case the user wants them.
+### 1. Assess and map: show it, then keep going
 
-### 1. Assess (always, shown in one line, never blocking)
+**First, read the intent** (see `references/assess.md`). SCAMPER only works well when it transforms the right thing, so before any letters, decide:
 
-Read `references/assess.md`. Work out four things:
+- **Goal:** the job underneath the request, in a phrase. "An infographic about sleep" is really "help tired parents fix bad nights".
+- **Keep / Change:** which dimensions stay fixed and which SCAMPER may touch: message, format, layout, audience, purpose, channel, length, style. Read them from the wording. Anything not mentioned stays **Keep**.
+- **Effort:**
+  - **light:** a quick pass, text only;
+  - **standard:** the full run with drafts.
+  "A few angles", "quick" and one-liners are light. Everything else is standard.
 
-- **Goal and real problem.** What is this for? Who is it for? What would make it a win? Look past the form of the request to its job. "An infographic about sleep" is really "help tired parents see the three habits that fix most bad nights".
-- **Keep / Change.** Decide which dimensions stay fixed and which change: message, format, layout, audience, purpose, channel, length, style, language, freshness. Read them from the wording. Anything not mentioned defaults to **keep**.
-- **Preset**, if one fits (see Presets below).
-- **Effort level:** light, standard or deep. Size it from the deliverable, the stakes, how familiar the territory is, and the user's own words ("quick" or "launch").
+**Ask only if blocked.** If something critical is missing and can't be reasonably assumed (no clear subject, conflicting goals, no idea what "good" means), ask 1–3 questions in one batch, multiple choice where possible, each with a recommended default. Then stop. Everything else becomes a stated assumption.
 
-Show it at the top, in one line, with the words that flip it:
+**Then map the subject.** Split it into **areas**: layout/visual, content/copy, offer/CTA, format/channel, audience, process/steps. For each area, list the **parts** that carry it, with their **limits**: slots, counts, character lengths, sizes. Then mark which letters bite where. Only areas marked Change get letters. `references/domains.md` has part lists and typical limits.
 
-> **Read as:** from a reference · **Goal:** help tired parents fix bad nights · **Keep:** core idea (3 habits feed 1 result), calm style · **Change:** topic, layout · **Effort:** standard · *Say "keep layout", "go deep" or "quick" to adjust.*
+Show the Assess line and the map at the top of the reply, then **continue without waiting**:
 
-### 2. Ask, only when blocked
-
-Ask before starting **only** if something critical is missing and can't be reasonably assumed: there's no clear subject, the goals conflict, or there's no way to tell what "good" means.
-- Ask 1–3 questions in one batch, multiple choice where possible, each with a recommended default.
-- Then stop and wait.
-
-Everything else becomes a stated assumption in the Assess line. Don't ask about details you can default (size, tone, number of variations).
-
-### 3. Gather references (sized to the effort level)
-
-Read `references/gather.md`. Collect references at three distances:
-- **close:** the same category, or the user's own reference;
-- **adjacent:** a neighbouring field;
-- **distant:** nature, history, games, other industries.
-
-For each one, write down its **mechanism**: *why* it works, in one line. This is raw material for Combine and Adapt.
-
-| Effort | References | Where from |
+```markdown
+**Read as:** template reuse · **Goal:** help tired parents fix bad nights · **Keep:** layout, style · **Change:** topic · **Effort:** standard · *Say "change layout" or "quick" to adjust.*
+| Area | Parts (limits) | Letters |
 |---|---|---|
-| Light | none | skip this step |
-| Standard | 3 (one per distance) | memory is fine; label it "from memory" |
-| Deep | 5+ | real tools when available: web search, design galleries, the user's files; plus memory |
+| Content | cover headline (≤8 words), 6 slide titles (≤5 words), 1 tip per slide, CTA slide | S, C, M, E |
+| Layout | 8-slide carousel, numbered steps, before/after split on slide 4 | — (kept) |
+```
 
-Show them as a short list: name, one-line mechanism, distance.
+"Read as" uses one of seven fixed labels: full session · template reuse · reformat · from a reference · focused lens · quick pass · custom.
 
-### 4. Angle (one sentence)
+### 2. Diverge per area (in your head or a scratch file)
 
-Before generating anything, decide the point of view that makes this piece *ours*. That might be a tension, an insight about the audience, or a surprising frame. For example: "Sleep isn't a switch, it's a ramp: the last hour decides the night." The angle filters which SCAMPER ideas survive.
+Run the letters inside each area marked Change, part by part. The quality rules:
 
-- At **deep** effort, propose 2–3 candidate angles and choose one. Each draft may explore a different angle.
-- At **light** effort, skip this step.
+- **Apply each letter where it bites.** Work part by part, not on the whole subject. You don't need to fill every cell.
+- **Push past the first answer.** Ask "How else? What else?". The first idea is the one everyone has.
+- **Keep at least one bold idea per area.** Deliberately far out. It can be scaled back later.
+- **Give Eliminate and Reverse real effort.** People are biased toward adding things.
+- **Cover modify, magnify *and* minify,** and name which one wherever an M idea appears ("M · Minify").
+- **Adapt from distant fields** (other industries, nature, history, games, sport), not close competitors.
+- **Write ideas concretely,** as a specific sentence someone could picture.
+- **Respect limits.** Content must fit the slots the layout gives it (see the two-track rule below).
+- **Don't judge yet.**
 
-### 5. Run SCAMPER on what changes
+When the cheat sheet runs dry, or the user named specific letters, read `references/letters/<letter>.md`. Each file has 10–15 trigger questions and prompts per domain.
 
-- **Only work the dimensions marked Change.** Content changes get content ideas; a layout change gets layout ideas.
-- **Use the letters that bite** on each changing dimension. Name them in one line ("S, R, C on the message; A, E on the layout"). Not all seven every time.
-- **Feed the references in.** Combine mixes mechanisms from two or more references, and Adapt borrows the distant one.
-- **Quality rules:**
-  - work part by part, not on the whole thing;
-  - push past the first answer ("How else? What else?");
-  - keep one bold idea per area;
-  - give Eliminate and Reverse real effort;
-  - cover all three of M;
-  - write ideas as concrete, specific sentences;
-  - respect slot limits;
-  - don't judge yet.
-- **Going deeper:** when the cheat sheet runs dry, or the user named letters, read `references/letters/<letter>.md`. `references/domains.md` has part lists and size and length limits.
+### 3. Compose three variations
 
-### 6. Three drafts, then stop for the user's pick
+Turn the raw ideas into **three coherent directions**. A direction combines moves across areas into one version someone would actually ship. It is never one variant per letter.
 
-Compose three coherent **directions**. Each combines moves across the changing dimensions; never one draft per letter.
+- **A: Close.** Faithful to the original, with the clearest wins applied.
+- **B: Balanced.** The strongest mix of new and feasible. Usually your recommendation.
+- **C: Bold.** Built on the most daring idea, scaled back until it is buildable. C should be clearly further from the original than B, not B plus one tweak. Bold is not exempt: C still fits every slot limit (a quoted line used as a headline counts too; if it's too long, put it in the subhead) and drops every phrase the user asked to drop.
 
-- **A: Close.** The clearest wins, closest to the source.
-- **B: Balanced.** The strongest mix of new and feasible. Usually the recommendation.
-- **C: Bold.** Built on the most daring idea, scaled back until it is buildable.
+**If layout is marked Change**, at least two of the three drafts need a genuinely different structure: a different spatial arrangement and reading order, not a new metaphor over the same arrangement. Name the structure in each draft's one-line note.
 
-If **layout is marked Change**, at least two of the three drafts get a genuinely different structure: a different spatial arrangement and reading order, not a new metaphor laid over the same arrangement. "Three items around a centre" re-labelled as a triangle is still the same structure. Name the structure in each draft's one-line note ("B: a page wireframe read top to bottom").
+If the user explicitly asked for SCAMPER, show a compact **Ideas by letter** block before the drafts: one line per letter, with the strongest idea for each.
 
-Render them in the real medium, following `references/drafting.md`:
-- **copy:** finished text, next to the original;
-- **design:** one artboard each on one canvas, or one HTML file side by side if there is no canvas;
-- **ideas:** concept cards;
-- **processes:** before → after flows.
+Give each draft a short name, the letters behind it, and one line on why it works. Ideas that didn't make a draft go into a **Backlog** line: at most 5 one-liners, each tagged with its letter.
 
-Draft at medium fidelity.
+### 4. Render the drafts in the subject's own medium
 
-Then end the turn with the **close**. Write it in the final message, before any tool that could end the turn:
+The user needs to *see* the variations. Read `references/drafting.md` for the exact formats.
+
+- **Copy and writing.** Show the original first, then the three variants as finished text, each with its name and letters.
+- **Visual design** (infographics, posts, slides, landing sections, covers):
+  - If a design canvas or artifact tool is available, put one artboard per variation on **one canvas**.
+  - If not, write **one HTML file** with the three variants side by side.
+  - Draft at low-to-medium fidelity: real copy, real layout, real colours. Polish comes after the user picks.
+- **Screens and flows** (checkout, onboarding, app screens). Show before → after, plus a phone-sized mockup of each draft's key screen.
+- **Campaigns, ideas, products.** Write one concept card per variation: name, hook, a sample post or line, a visual note, and the first step.
+- **Processes.** Show before → after: the steps as a flow, with removed and moved steps marked.
+
+### 5. Close (part of the deliverable; every run except a quick pass)
+
+End your final message with this block. If a tool would end your turn (a wrap-up or next-step box, a question card), write the block first. Skipping it hides the reasoning, which is the point of the method.
 
 ```markdown
 **What changed**
-| Part | A | B | C | Letters |
+| Original part | A | B | C | Letters |
 |---|---|---|---|---|
 
 **Recommendation:** B, because … · **Riskiest assumption:** … · **Cheapest test:** …
-**Backlog:** (S) … · (E) … (≤5)
-**Checked:** drafts not yet rendered/checked, or "rendered, no overlaps found"
-Pick one, combine ("B with C's headline"), or redirect ("more layout options").
+**Backlog:** (S) … · (E) … · (R) …
+**Checked:** what you actually verified, e.g. "rendered, no overlaps", or "not visually checked"
+Pick one to develop, or combine (e.g. "B with C's headline").
 ```
 
-The close is the **end** of the message. Nothing comes after the pick prompt. Put any extra sequencing ("try first") inside the recommendation.
+- **The close is the end of the message.** Nothing comes after the pick prompt.
+- **Keep the table to the parts that changed.**
+- **The riskiest assumption and cheapest test belong to the recommended draft.** If the recommendation is a sequence ("A now, B next"), give them for the main pick.
+- **"Checked" only claims what you really verified.** Before writing "all invented details bracketed" or "no clichés reused", search the drafts for them.
+- **Don't offer other formats here.** Wait until the user has settled.
 
-**The user's reply decides what happens next:**
-- **a pick or a combination** → step 7;
-- **a redirect** → another round of steps 5–6 with the new direction;
-- **a correction to the Assess line** → redo from step 1.
+### 6. Develop (the next turn)
 
-### 7. Final + check
+When the user picks a variation or a combination, polish it to final fidelity. Run a quick second SCAMPER pass on that variation alone (merge it with the best backlog idea, push its weakest part), and deliver the finished piece. If they redirect instead ("more layout options"), run steps 2–5 again in that direction.
 
-- **Polish** the chosen draft to final fidelity. Run a quick second SCAMPER pass on it alone: merge in the best backlog idea and strengthen its weakest part.
-- **Check before handing over:**
-  - everything fits its slot;
-  - nothing overlaps or clips (render it, if you can);
-  - contrast is at least 4.5:1;
-  - placeholders are bracketed and consistent with the user's timeline;
-  - nothing from the source creator remains (names, handles, logos, signature phrases);
-  - **originality:** no layout or copy is too close to any single reference, and the piece mixes 2+ sources.
-- **Say what was checked** and what wasn't, and only claim what you actually verified. Before writing "all invented details bracketed" or "no clichés reused", search your own drafts for unbracketed numbers or names and for any phrases the user asked to drop. If a tool tells you not to verify, say "not visually checked; ask me to render and fix".
+**Once the user has settled** (they've picked, and the final piece is delivered or approved), offer other formats **once**, in one line, only when the piece could live elsewhere:
 
-## Presets
+> Want this adapted to another format too, for example a carousel, a thread or a short video script?
 
-The Keep / Change line handles any combination. Three come up often enough to name. Details and phrasing cues are in `references/repurpose.md`.
+Never offer this in the draft round. Never produce other formats unasked.
 
-| Preset | Phrasing cues | Keep | Change | Drafts are… |
-|---|---|---|---|---|
-| **Template reuse** | "repurpose / reuse *this design / template / layout* for [topic]" | Layout, style | Message (topic) | Same structure, three takes on the content; C may make one layout move |
-| **Reformat** | "repurpose / turn *this post / article / webinar* into…", "make a carousel from this" | Message | Format, channel, length | Three formats (e.g. carousel, thread, video script), each within its platform's limits |
-| **From a reference** | "design X… see reference", "something like this", "inspired by" | Core idea or mechanism | Layout, message, often style | At least 2 of 3 with a new structure; the reference is direction, not a container |
+## Modes
 
-**Other modes:**
-- **Focused lens** (the user names letters): go deep on those letters only, reading their files.
-- **Facilitate** (a team workshop): read `references/facilitation.md`.
+Read the request and pick one.
+
+| Mode | When | Shape |
+|---|---|---|
+| **Full session** | "SCAMPER this", "brainstorm our launch" | Assess and map → 3 drafted variations → close. Add a NUF score row for A/B/C (New, Useful, Feasible, 1–5) in the close. |
+| **Repurpose** | "Use this infographic / post / deck for topic X", "turn this post into…", "design X like this reference" | Read `references/repurpose.md`. The wording decides which kind:<br>• **template reuse:** keep the layout, change the content;<br>• **reformat:** keep the message, change the format. Deliver **one** target format, the one named or the best fit stated in the Assess line, as three takes in that format;<br>• **from a reference:** keep the idea, change the layout (2 of 3 drafts get a new structure). |
+| **Focused lens** | The user names letters ("what can we eliminate?") | Map limited to those letters, read their letter files, go deeper (more parts, more distant analogies), then draft. The three variations can be three strengths of the same letter. |
+| **Quick pass** | "A few fresh angles on this headline" | 5–6 concrete options from the letters that bite best, one top pick with a one-line reason. No map, no drafts, no table. Under 300 words. |
+| **Facilitate** | The user will run SCAMPER with a team | Read `references/facilitation.md`. Agenda, timing, a prompt card per letter, the selection method. |
+
+If it's unclear, default to a compact full session, and offer a focused lens on any area.
+
+## The two-track rule: layout and content
+
+When a subject has both a visual structure and the words that fill it:
+
+- **The content track always runs.** Run SCAMPER on the message, and fit every new text to the limit of the slot it fills.
+- **The layout track follows Keep / Change.** If layout is kept, check each visual metaphor (ladder, pyramid, timeline, arrows) against the new topic. Keep it with a new meaning when it still works, and change only the piece that breaks. If layout is marked Change (a reference, or "rework the design"), run the full layout track.
+- **Prompt overrides:**
+  - "keep the layout exactly": content only;
+  - "rework the layout too": both tracks in full;
+  - "content only, I'll design it": skip rendering and deliver the slot-by-slot copy.
 
 ## Brevity
 
-- **Lines, not lectures.** The Assess line, the references list and the angle are each a line or a short list.
-- **The drafts are the main body.** Everything else (Assess, references, angle, letters line, close) totals about 350 words at standard effort. The backlog has at most 5 items.
-- **Bold doesn't mean exempt.** Draft C still fits every slot limit and drops every phrase the user asked to drop.
-- **Fixed "Read as" labels:** template reuse · reformat · from a reference · focused lens · quick pass · custom.
-- **No preamble about SCAMPER** unless the user asks.
-- **The user's numbers and words win** over these defaults.
+- **No preamble about what SCAMPER is**, unless the user asked.
+- **The Assess line is one line; the map is a table, not prose.**
+- **The drafts are the main body,** with rationale kept to one line each. Everything else totals about 350 words.
+- **The backlog has at most 5 one-liners.**
+- **Scoring rows appear only in full sessions.**
+- **The user's numbers win.** If they ask for 5 variations or no drafts, do that.
 
-## Accuracy
+## Accuracy when citing real-world examples
 
-Use the verified examples in the letter files. Avoid these myths:
+Use the verified examples in the letter files. Avoid these widely repeated myths:
 - Columbus "proving the Earth round";
-- AWS from "excess capacity";
-- Ray Kroc inventing self-service (it was the McDonald brothers, 1948);
-- Carver's "300 peanut uses";
-- Gutenberg as "wine press + coin punch".
+- AWS from "excess capacity" (Amazon's CTO denied it);
+- Ray Kroc inventing self-service (it was the McDonald brothers' 1948 Speedee system);
+- Carver's "300 peanut uses" as commercial products;
+- Gutenberg as simply "wine press + coin punch".
 
-Never invent statistics. Unknown facts become [PLACEHOLDERS]. References gathered from memory are labelled as such and never presented as researched.
+Never invent statistics. Unknown facts and names become placeholders like [YOUR NAME]. Nothing from a source creator (name, handle, logo, signature claim) carries into the drafts.
 
 ## When SCAMPER is the wrong tool
 
-Say so briefly, and combine with the better tool:
-- **an unclear problem:** define it first (jobs-to-be-done, 5 Whys);
-- **a technical trade-off:** TRIZ;
-- **a huge space of combinations:** a morphological box;
-- **deciding rather than generating:** Six Thinking Hats or PMI;
-- **pure blue sky:** brainwriting first, then SCAMPER the results.
+Say so briefly, then offer the better tool or a combination.
+
+- **The problem is unclear.** Define it first (jobs-to-be-done, 5 Whys, a journey map).
+- **A hard technical trade-off.** Use TRIZ.
+- **A huge space of combinations.** Use a morphological box, with SCAMPER filling its columns.
+- **The team needs to decide, not generate.** Use Six Thinking Hats, PMI or a weighted matrix.
+- **A blue-sky invention with no anchor.** Use brainwriting first, then SCAMPER the results.
 
 ## Reference files
 
-- `references/assess.md`: clarity checklist, when to ask, effort levels and their signals, Keep/Change dimensions, phrasing cues.
-- `references/gather.md`: reference distances, extracting mechanisms, tools to use, the originality rule.
-- `references/repurpose.md`: the three presets in detail, slot inventory, fit checklist.
-- `references/drafting.md`: rendering drafts in each medium, fidelity levels, the final check.
-- `references/domains.md`: part lists and size and length limits by domain and platform.
-- `references/letters/*.md`: deep trigger questions, domain prompts, pitfalls and verified examples for each letter.
-- `references/evaluation.md`: selection tools (NUF, impact/effort, How–Now–Wow, PMI), hybridizing.
-- `references/facilitation.md`: workshops, evidence and limits, history.
+Load only what the task needs.
+
+- `references/assess.md`: reading intent. Clarity check, when to ask, Keep/Change dimensions, phrasing cues, effort, the Assess line.
+- `references/repurpose.md`: template reuse, reformat and from a reference. Slot inventory, fit checklist, a worked example.
+- `references/drafting.md`: how to render drafts in each medium. Design canvas artboards, the HTML side-by-side fallback, copy comparison, screens, concept cards, before/after flows, fidelity levels.
+- `references/domains.md`: part lists and typical limits for content and marketing, writing, visual/UI/graphic design, product, business and process work, publishing, and reformat targets.
+- `references/letters/`: one file per letter (`substitute.md`, `combine.md`, `adapt.md`, `modify-magnify-minify.md`, `put-to-other-uses.md`, `eliminate.md`, `reverse-rearrange.md`). Each has trigger questions, domain prompts, pitfalls and verified examples.
+- `references/evaluation.md`: selection tools (NUF, impact/effort, How–Now–Wow, PMI, dot voting, weighted matrix), hybridizing, next-step templates.
+- `references/facilitation.md`: group sessions, timing, combining with other methods, the evidence and its limits, history and variants.
