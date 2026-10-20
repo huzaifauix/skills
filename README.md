@@ -32,6 +32,11 @@ Run the SCAMPER creative-thinking method (Substitute, Combine, Adapt, Modify/Mag
 
 **Use when:** Brainstorming fresh angles, remixing or repurposing something that already exists, or asking "what could we eliminate / reverse here?"
 
+### `content-diy`
+Build a content strategy with Nick Broekema's DIY Content Strategy framework: category → pillars → topics → post formats, where pillar + topic + format = one post. Runs a short onboarding, proposes audience-first pillars and topics, then picks the strongest topic × format pairings from 18 formats in four families (Teach, Story, Opinion, Proof) as post ideas with titles and hooks. Saves the profile, content map and an idea log in `content-strategy/` in your project, so later runs skip onboarding and never repeat ideas. Can also plan a content calendar, draft full posts per platform, and export ideas to CSV.
+
+**Use when:** Asking "what should I post?", building content pillars or a posting plan, or coming back for more ideas or drafts.
+
 ## Manual Installation
 
 You can also manually copy any `SKILL.md` file from the `skills/` directory into your Cursor skills folder:

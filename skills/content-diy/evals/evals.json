@@ -1,0 +1,62 @@
+{
+  "skill_name": "content-diy",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "I'm a freelance UX designer who helps early-stage SaaS founders fix onboarding so trial users actually convert. I post on LinkedIn about twice a week but I keep running out of things to say. Build me a content strategy and give me post ideas. Just go, make assumptions where you need to.",
+      "expected_output": "First run with no saved files: assumptions stated and saved, category, 3-4 audience-first pillars, 10-15 topics each, 24 ideas as a table with ID/pillar/topic/format/title/hook, all project files written.",
+      "files": [],
+      "expectations": [
+        "Does not stop to ask the full onboarding questionnaire, because the user said 'just go'; states its assumptions instead",
+        "Writes content-strategy/profile.md with the supplied facts and marks inferred items as (assumed)",
+        "Names one specific category (e.g. SaaS onboarding UX), not a generic one like 'Design'",
+        "Proposes 3 or 4 pillars named for audience problems or goals, not service lines",
+        "Lists 10-15 short noun-phrase topics per pillar and writes them to content-strategy/map.md",
+        "Produces about 24 ideas, each with an ID (I-001...), pillar, topic, format, title and hook",
+        "Ideas cover every pillar and all four format families (Teach, Story, Opinion, Proof), with no format used more than 3 times",
+        "Story and Proof ideas use bracketed placeholders for client results, quotes or numbers instead of inventing them",
+        "Appends all ideas to content-strategy/ideas.md with status 'idea'",
+        "Credits Nick Broekema's framework when explaining the method"
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Give me 9 more post ideas, mostly for the Knowing your numbers pillar.",
+      "expected_output": "Returning run: reads saved files, one-line confirmation, no onboarding questions, 9 new ideas continuing from I-007, no repeats, preferences respected.",
+      "files": [
+        "evals/files/returning-project/content-strategy/profile.md",
+        "evals/files/returning-project/content-strategy/map.md",
+        "evals/files/returning-project/content-strategy/ideas.md"
+      ],
+      "expectations": [
+        "Does not ask the onboarding questions; confirms the saved profile (Northside Bookkeeping, restaurant owners, LinkedIn) in one line",
+        "Produces exactly 9 new ideas, most of them in the Knowing your numbers pillar",
+        "New IDs continue from I-007 and no existing ID is reused",
+        "No new idea repeats a Topic + Format pair already in ideas.md (e.g. Food cost percentage + How to, Year-end surprises + Contrary take)",
+        "Uses no Building in public ideas, following the saved preference",
+        "Uses topics from map.md and favours ones with no ideas yet",
+        "Writes in a plain-spoken voice with no emojis, following the profile",
+        "Appends the new ideas to ideas.md without altering the existing rows"
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Plan my LinkedIn posts for the next 4 weeks starting Monday 2026-11-02.",
+      "expected_output": "Calendar of 12 posts (Mon/Wed/Fri) in calendar.md, using picked/idea ideas first, generating more as needed, pillars rotated, statuses set to scheduled.",
+      "files": [
+        "evals/files/returning-project/content-strategy/profile.md",
+        "evals/files/returning-project/content-strategy/map.md",
+        "evals/files/returning-project/content-strategy/ideas.md"
+      ],
+      "expectations": [
+        "Schedules 12 posts on Mondays, Wednesdays and Fridays from 2026-11-02 to 2026-11-27, following the saved cadence",
+        "Uses I-003 (picked) and the unused ideas I-004 and I-005, and does not schedule posted (I-001, I-002) or dropped (I-006) ideas",
+        "Generates new ideas to fill the remaining slots and adds them to ideas.md with new IDs",
+        "Never schedules the same pillar on two consecutive dates",
+        "Each week includes at least one Story or Opinion post",
+        "Writes content-strategy/calendar.md with Date, Day, Platform, ID, Pillar, Format and Title columns",
+        "Sets the status of every scheduled idea to 'scheduled' in ideas.md"
+      ]
+    }
+  ]
+}
