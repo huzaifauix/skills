@@ -126,3 +126,36 @@ Setup tips:
 - **Rights and adaptations.** Translation, film, merchandise.
 - **Reading-group material.**
 - **Review and ARC strategy.**
+
+## Typical limits (for the map step)
+
+When the source doesn't fix a limit, use these. They are common conventions and rules of thumb, not platform guarantees. If the user names a size or length, theirs wins.
+
+**Visual sizes (px)**
+| Format | Size |
+|---|---|
+| Instagram / LinkedIn portrait post, carousel slide | 1080×1350 (4:5) |
+| Square post | 1080×1080 |
+| Story / Reel / TikTok cover | 1080×1920 (9:16) |
+| LinkedIn / X landscape image | 1200×627 / 1600×900 |
+| Pinterest pin | 1000×1500 (2:3) |
+| YouTube thumbnail | 1280×720 |
+| Email body width | 600 |
+| Link preview (Open Graph) image | 1200×630 |
+| Landing page hero | 1440 wide desktop; check at 390 phone width |
+
+**Copy lengths (rules of thumb)**
+| Slot | Keep it to |
+|---|---|
+| Headline / infographic title | 3–10 words, ≤2 lines at display size |
+| Tagline / subhead | 6–12 words |
+| Email subject line | ~40–50 characters, so it isn't cut off on phones |
+| Email preview text | ~40–90 characters |
+| Card or column bullets | 3–5 per card, ≤6 words each |
+| Stage or step labels | 1–2 words |
+| Button / CTA | 2–4 words, verb first |
+| Social caption hook | The first line, ≤~125 characters, before the "more" cut-off |
+| Meta description | ~150–160 characters |
+| Back-cover blurb | ~100–200 words |
+
+**Infographic density:** one idea per panel, about 40 words per panel at most, at least 4.5:1 text contrast, and nothing under 12 px at the published size. Count slots on the source before writing copy, because copy that overflows only shows once it's rendered.

@@ -7,13 +7,13 @@
       "expected_output": "Full SCAMPER session: framed goal, attributes, ideas under all 7 letters with bold ideas, scored shortlist, prioritized next steps with tests.",
       "files": [],
       "expectations": [
-        "Output covers all seven SCAMPER letters (S, C, A, M, P, E, R) as distinct sections",
-        "Output explicitly lists the attributes/components of the newsletter that were examined (e.g. subject line, format, cadence, sections)",
-        "M section includes at least one Magnify AND at least one Minify idea",
-        "At least one idea per letter on average is labelled as bold/far-out",
-        "Includes a shortlist with explicit scoring or prioritization criteria (e.g. New/Useful/Feasible or impact/effort)",
-        "Each recommended idea has a concrete cheapest test (e.g. A/B subject line test) and a riskiest assumption or success signal",
-        "Recommendations address the open-rate problem specifically (subject line / sender / preview / timing), not only content inside the email"
+        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
+        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Presents 3 named variations (A/B/C) as drafted concepts (concept cards or draft copy), not only idea lists",
+        "M ideas include at least one Magnify and one Minify",
+        "Each recommendation has a riskiest assumption and a cheapest test",
+        "Addresses the open-rate problem specifically (subject line / sender / preview / timing)",
+        "Backlog of undrafted ideas is 8 items or fewer"
       ]
     },
     {
@@ -22,12 +22,12 @@
       "expected_output": "Three finished rewritten blurbs, each labelled with the SCAMPER operator(s) behind it, cliches removed, a recommendation.",
       "files": [],
       "expectations": [
-        "Provides exactly three (or at least three) complete rewritten blurbs ready to use",
-        "Each rewritten blurb is labelled with the SCAMPER operator(s) or strategy behind it",
-        "None of the rewrites use the original clich\u00e9s 'Some secrets are better left buried', 'race against time', or 'won't be able to put down'",
-        "Recommends one option with a reason",
-        "Any invented plot specifics are flagged as placeholders for the editor to confirm",
-        "The three options are structurally different from each other (not just reworded versions of the same structure)"
+        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
+        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Shows the original blurb, then three complete rewritten blurbs ready to use",
+        "Each rewrite is labelled with a name and the SCAMPER letters behind it",
+        "None of the rewrites use 'better left buried', 'race against time', or 'put it down'",
+        "Invented plot specifics are flagged as placeholders"
       ]
     },
     {
@@ -36,12 +36,44 @@
       "expected_output": "Deep Eliminate and Reverse/Rearrange pass on checkout steps, concrete changes, prioritized, with tests and UX caveats.",
       "files": [],
       "expectations": [
-        "Focuses on Eliminate and Reverse/Rearrange rather than running a full 7-letter session",
-        "Proposes eliminating forced account creation (guest checkout or post-purchase account)",
-        "Proposes at least one Rearrange idea that changes step order (e.g. account creation after payment, or shipping estimate in cart)",
-        "Includes at least one Reverse idea that inverts a role or assumption, not just reordering",
-        "Changes are prioritized (e.g. quick wins vs bigger bets)",
-        "Recommends testing/measuring the changes (A/B test, funnel metrics, usability test)"
+        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
+        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Focuses on Eliminate and Reverse/Rearrange rather than a full 7-letter session",
+        "Proposes guest checkout / account after purchase",
+        "Shows at least one variation as a before -> after flow of checkout steps",
+        "Recommends testing/measuring the changes"
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "repurpose this infographic design with this topic \"How To Give Feedback Without Overexplaining\"",
+      "expected_output": "Slot inventory/map with layout and content areas, three variations (faithful / re-meant / remixed) rendered as design artboards or an HTML side-by-side file, What changed table by slot, no source branding.",
+      "files": [
+        "evals/files/tech-career-ladder.webp (local only: third-party image, not committed)"
+      ],
+      "expectations": [
+        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
+        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Map separates a layout area and a content area",
+        "Produces visual drafts: design artboards or a single HTML file showing 3 variations side by side",
+        "Variations differ in how they treat the layout metaphors (at least one keeps the layout exactly, one changes a layout element)",
+        "Copy fits the slot structure of the source (4 levels, short stage labels, short bullets)",
+        "No trace of the source creator's name or handle remains; footer uses a placeholder",
+        "No invented statistics"
+      ]
+    },
+    {
+      "id": 5,
+      "prompt": "We're launching Mira Okafor's debut novel 'The Salt Orchard' next month. Our landing page hero is: big cover image on the left, headline 'A Sweeping Family Saga', subhead 'The debut everyone is talking about', and a 'Buy Now' button. Give me three better hero section variations.",
+      "expected_output": "Map (layout + copy + CTA areas), three hero variations rendered visually (artboards or HTML side by side) with real copy, What changed table, recommendation.",
+      "files": [],
+      "expectations": [
+        "Opens with a SCAMPER map table listing at least 2 areas with parts/limits and letters, plus an assumptions line",
+        "Ends with a 'What changed' table mapping original parts to new versions with letters, and a recommendation",
+        "Produces visual drafts of 3 hero sections (artboards or one HTML file), not only text",
+        "Each variation has real headline, subhead and CTA copy within typical limits (headline <= 10 words, CTA 2-4 words)",
+        "At least one variation changes the CTA beyond 'Buy Now' (e.g. preview, first chapter, preorder bonus)",
+        "Unknown facts (quotes, awards, dates) are placeholders, not invented"
       ]
     }
   ]
