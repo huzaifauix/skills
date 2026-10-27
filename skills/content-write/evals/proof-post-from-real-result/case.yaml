@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: proof-post-from-real-result
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A Proof post that sells without selling: hook → the real result → a short look at the process →
+  a soft call to action. It uses the supplied facts exactly (2-site pizza group, January, VAT late 3
+  quarters, on time 3 quarters straight, Monday cash report), invents nothing else (no client name,
+  quote or money saved; any process detail the user didn't give stays a placeholder), shows no price,
+  and has no emoji. Saved as content-strategy/drafts/I-007-*.md with a new I-007 row at status drafted.

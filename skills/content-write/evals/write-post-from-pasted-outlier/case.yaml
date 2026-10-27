@@ -1,0 +1,10 @@
+schema_version: "1.1"
+name: write-post-from-pasted-outlier
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A full LinkedIn post for Northside Bookkeeping's restaurant owners that repurposes the outlier's angle
+  (free, simple habits before paid software) and its list structure, in new words. It has a pillar, topic
+  and format from map.md, follows the profile (no emoji, plain and dry), invents no client results, and
+  avoids the outlier's own slop (the neat two-line saying, the repost prompt). Saved as
+  content-strategy/drafts/I-007-*.md with a new I-007 row in ideas.md at status drafted.

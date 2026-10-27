@@ -43,6 +43,18 @@ Build a content strategy with Nick Broekema's DIY Content Strategy framework: ca
 
 **Use when:** Asking "what should I post?", building content pillars or a posting plan, or coming back for more ideas or drafts.
 
+### `content-write`
+Write social posts that sound like a real person, not AI. You bring a proven post (an outlier or an example you like), and it repurposes the angle and structure for your audience in new words. Every post then goes through a four-pass polish:
+
+1. **Slop scan:** catches "not X, it's Y", self-answered questions, neat sayings, fragment triplets, gimmick labels, link lines and story clichés, and rewrites them instead of deleting them.
+2. **Reader pass:** the message lands in the first 3 lines, there's a real moment or stake, and the post feels finished.
+3. **Truth check:** every claim about you comes from your files or the conversation; anything else stays a placeholder.
+4. **Scan pass:** short lines, white space, devices that fit the content, and lists shaped by line length (long to short, short to long, square, arrow).
+
+Length follows the real moments in the material. Reads your profile and content map from `content-strategy/` (made by `content-diy`) and saves drafts there. Also cleans existing posts ("this sounds like ChatGPT").
+
+**Use when:** Writing or repurposing a LinkedIn post, writing this week's posts, or cleaning a post that sounds like AI.
+
 ## Manual Installation
 
 You can also manually copy any `SKILL.md` file from the `skills/` directory into your Cursor skills folder:

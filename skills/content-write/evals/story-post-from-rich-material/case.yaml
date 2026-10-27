@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: story-post-from-rich-material
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  A long Story post, as long as its many real beats need with no padding: the record
+  December, the £4,800 machine, the quiet months, no forecast, the fish supplier stopping, the £6,000
+  loan, closing in April 2019 and selling up for £3,200, the receipts box, training in 2020, and the
+  pizza place as first client. It uses most of these beats without inventing new ones, ends in a way that fits an origin story
+  (the link back to the business, or an action if it draws a lesson), stays free of slop and emoji, and ends on one line.
+  Saved as content-strategy/drafts/I-007-*.md with an I-007 row at status drafted.

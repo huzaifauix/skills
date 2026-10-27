@@ -1,0 +1,11 @@
+schema_version: "1.1"
+name: clean-slop-post
+context:
+  scaffold_script: place-files.sh
+expected_outcome: |
+  Polish mode. The reply quotes the slop lines and names the pattern of each ("They don't. They have a
+  visibility problem", "The truth?", "3 numbers. 10 minutes. Every week.", "It didn't start that way",
+  "Then the real work began", "Same goes for…", the "Numbers don't lie / But late numbers do" saying,
+  the closing question and emoji), then gives a cleaned version. The cleaned post keeps the real list of
+  three numbers and the café fact, adds no new facts, keeps its lists and short lines rather than going
+  flat, has no emoji, and ends on one finished line.
